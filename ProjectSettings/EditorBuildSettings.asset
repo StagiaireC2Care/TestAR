@@ -8,7 +8,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SceneTennis.unity
     guid: 8e2b7b9103ed17d4ba9e8b3bfeb736b3
   - enabled: 0
@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/QRScene.unity
     guid: ef8baca82172be649a3f7533e91e8509
+  - enabled: 1
+    path: Assets/Scenes/CalibrationAR.unity
+    guid: 7ea2df66fa93c54449158aa289010c9e
   m_configObjects:
     Unity.XR.PXR.Settings: {fileID: 11400000, guid: 275d0ee48b60f46489c357f98c186e2e, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 266ca5b4bd68eb44cb21b4a0b8986bf1, type: 2}
