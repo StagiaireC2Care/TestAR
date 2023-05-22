@@ -17,6 +17,11 @@ public class SeeThroughMgr : MonoBehaviour
         defaultClearFlag = mainCamera.clearFlags;
     }
 
+    void Start() 
+    {
+        SetSeeThrough(true);
+    }
+
     public void SetSeeThrough (bool enabled)
     {
         mainCamera.clearFlags = enabled ? CameraClearFlags.SolidColor : defaultClearFlag;
